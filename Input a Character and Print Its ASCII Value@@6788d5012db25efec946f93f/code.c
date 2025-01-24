@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
     char ch='a';
-    scanf("%c",ch);
+    scanf("%c",&ch);
     printf("ASCII value: %c",ch);
 }
