@@ -4,9 +4,10 @@ int main(){
     scanf("%d %d %d",&a,&b,&c);
     if(c>a && c>b){
         printf("30");
-            if(a>b && a>c){
-                printf("50");
-            }
+        
+        }
+        else if(a>b && a>c){
+            printf("50");
         }
     
 
