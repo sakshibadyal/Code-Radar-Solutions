@@ -1,9 +1,7 @@
 #include<stdio.h>
 int main(){
-    char name[100], favorite hobby;
-    int age;
-    scanf("\n%s \n%d \n%s",&name,&age,&favorite hobby);
-    printf("\nName: %s",name);
-    printf("\nAge: %d",age);
-    printf("\nHobby: %s",favorite hobby);
+    char a[100] int b char c[100];
+    scanf("%s %d %s",&a,&b,&c);
+    printf("Name: %s\n Age: %d\n Hobby: %s\n",a,b,c);
+
 }
