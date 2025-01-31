@@ -5,5 +5,5 @@ int main(){
     float d;
     d=(a+b+c)/3;
     printf("Average: %.2f",d);
-    return o;
+    return 0;
 }
