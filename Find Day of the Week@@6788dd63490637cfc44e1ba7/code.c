@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&day);
     switch(day){
         case 1:
-           printf("Monday");
+        printf("Monday");
         break;
         case 2:
         printf("Tuesday");
