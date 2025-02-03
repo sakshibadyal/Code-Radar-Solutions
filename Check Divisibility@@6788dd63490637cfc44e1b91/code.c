@@ -2,7 +2,7 @@
 int mian(){
     int a;
     scanf("%d",&a);
-    if(a%5 && a%11){
+    if(a%5==0 && a%11==0){
         printf("Divisible");
     }
     else{
