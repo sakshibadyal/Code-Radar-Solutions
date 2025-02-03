@@ -8,4 +8,7 @@ int main(){
     else if(a>=80){
         printf("B");
     }
+    else{
+        printf("FAIL");
+    }
 }
