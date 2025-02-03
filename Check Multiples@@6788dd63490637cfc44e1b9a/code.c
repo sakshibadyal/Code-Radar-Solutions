@@ -5,7 +5,7 @@ int main(){
     if(b==0){
         printf("Division with zero is not allowed.");
     }
-    elsd{
+    else{
         if (a%b==0){
             printf("Yes");
         }
