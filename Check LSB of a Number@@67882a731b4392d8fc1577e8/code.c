@@ -8,4 +8,5 @@ int main{
     else{
         printf("Not Set\n");
     }
+    return 0;
 }
