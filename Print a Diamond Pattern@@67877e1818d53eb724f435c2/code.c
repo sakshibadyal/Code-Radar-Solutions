@@ -1,7 +1,7 @@
 #include <stdio.h>
-int main() {
+int main(){
     int n;
-    scanf("d",&n);
+    scanf("%d",&n);
     for(int i=1;i<=n;i++){
         for(int space=1;space<=n-1;space++){
             printf(" ");
@@ -22,4 +22,5 @@ int main() {
         printf("\n");
 
     }
+    return 0;
 }
