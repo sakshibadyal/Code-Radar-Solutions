@@ -15,6 +15,6 @@ int main(){
         printf("D");
     }
     else{
-        printf("FAIL");
+        printf("F");
     }
 }
