@@ -19,5 +19,5 @@ int main() {
         printf("%d",bit);
     }
 }
-printf("\n")
+printf("\n");
 }
