@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+int main(){
     int day;
     scanf("%d",&day);
     switch(day){
@@ -15,10 +15,10 @@ int main() {
         case 4:
             printf("Thursday");
             break;
-        case 5;
+        case 5:
             printf("Friday");
             break;
-        case 6;
+        case 6:
             printf("Saturday");
             break;
         case 7:
