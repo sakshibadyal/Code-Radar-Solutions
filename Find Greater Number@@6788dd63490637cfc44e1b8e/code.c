@@ -3,9 +3,9 @@ int main(){
     int a,b;
     scanf("%d %d",&a,&b);
     if(a>b){
-        print("a");
+        print("a\n");
     }
     else{
-        print("b");
+        print("b\n");
     }
 }
