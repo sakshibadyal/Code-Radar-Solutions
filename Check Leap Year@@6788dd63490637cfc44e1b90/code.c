@@ -2,14 +2,6 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if(a>0){
-        printf("Positive");
-    }
-    else if(a<0){
-        printf("Negative");
-
-    }
-    else{
-        printf("Zero");
-    }
+    if(a%4==0 && (a%100!=0) || (a%400==0)){
+}
 }
