@@ -5,4 +5,7 @@ int main(){
     if(a>b || b>a){
         printf("10");
     }
+    else if(a<b || b<a){
+        printf("15");
+    }
 }
