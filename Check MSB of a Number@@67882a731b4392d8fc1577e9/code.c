@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-  int a;
-  scanf("%d",&a);
-  if(a(1<<31)){
-    printf("Set");
-  }
-  else{
-    printf("Not Set");
-  }
+    int a;
+    scanf("%d",&a);
+    if(){
+        printf("Set");
+    }
+    else{
+        printf("Not Set");
+    }
 }
