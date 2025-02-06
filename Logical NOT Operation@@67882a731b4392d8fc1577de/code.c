@@ -1,11 +1,12 @@
-#include<stdio.h>
+#include<Stdiop.h>
 int main(){
- int a;
- scanf("%d",&a);
- if(!(a>0)){
-    printf("True");
- }
- else{
-    printf("False");
- }
+    int a;
+    scanf("%d",&a);
+    if(!(a>0)){
+        printf("True");
+    }
+    else{
+        printf("False");
+    }
+
 }
