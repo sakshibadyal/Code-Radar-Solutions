@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
-    int bit=(1<<a);
-    printf("%d",bit);
+    int a,b;
+    scanf("%d%d",&a,&b);
+    int bit=(a>>b)&1;
+    printf("%d\n",bit);
+
 }
