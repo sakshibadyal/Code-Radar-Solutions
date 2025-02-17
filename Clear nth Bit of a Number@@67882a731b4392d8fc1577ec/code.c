@@ -2,6 +2,6 @@
 int main(){
     int a,b;
     scanf("%d%d",&a,&b);
-    a=a&(a<<b);
-    printf("%d",a);
+    b=a&(1<<31);
+    printf("%d",b);
 }
