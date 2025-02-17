@@ -1,7 +1,8 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+int main() {
     int a,b;
-    scanf("%d%d",&a,&b);
-    b=a&(1<<31);
-    printf("%d",b);
+    scanf("%d %d",&a,&b);
+    a=a& ~(1<<b);
+    printf("%d",a);
+    return 0;
 }
