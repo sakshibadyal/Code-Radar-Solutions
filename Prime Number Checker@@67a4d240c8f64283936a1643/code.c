@@ -7,12 +7,9 @@ int isPrime(int num) {
     }
     return 1;
 }
-
 int main() {
     int num;
-    printf("Enter a number: ");
     scanf("%d", &num);
-
     if (isPrime(num))
         printf("1\n");
     else
