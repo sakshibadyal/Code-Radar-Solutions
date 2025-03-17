@@ -8,12 +8,11 @@ int isPrime(int num) {
     return 1;
 }
 int main() {
-    int num;
+    int t,num;
     scanf("%d", &num);
     if (isPrime(num))
         printf("1\n");
     else
         printf("0\n");
-
     return 0;
 }
