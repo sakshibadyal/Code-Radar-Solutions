@@ -11,12 +11,12 @@ for(int i=1;i<=n;i++){
     }
     for(int k=1;k<=b;k++){
         printf("*");
-        if(i<c)
+        if(i<c){
 a--;
-b+=2;
-else
+b+=2;}
+else{
 a++;
-b-=2;
+b-=2;}
     }
     printf("\n");
 }
