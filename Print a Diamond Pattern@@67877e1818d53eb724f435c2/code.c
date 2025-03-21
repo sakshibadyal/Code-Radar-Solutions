@@ -10,6 +10,7 @@ for(int i=1;i<=n;i++){
         printf(" ");
     }
     for(int k=1;k<=b;k++){
+        printf("*");
         if(i<c)
 a++;
 b+=2;
