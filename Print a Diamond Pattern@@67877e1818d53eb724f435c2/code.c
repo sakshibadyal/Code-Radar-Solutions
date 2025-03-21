@@ -12,7 +12,7 @@ for(int i=1;i<=n;i++){
     for(int k=1;k<=b;k++){
         printf("*");
         if(i<c)
-a++;
+a--;
 b+=2;
 else
 a++;
