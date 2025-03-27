@@ -1,5 +1,5 @@
 #include<stdio.h>
-#inlcude<string.h>
+#include<string.h>
 void insertionSort(char arr[][100],int n){
     char key[100];
     int i,j;
