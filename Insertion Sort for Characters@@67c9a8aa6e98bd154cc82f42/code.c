@@ -1,5 +1,5 @@
 #include<stdio.h>
-void insertionsort(char arr[],int n){
+void insertionSort(char arr[],int n){
     itn i,j;
     char key;
     for(int i=1;i<=n;i++){
