@@ -1,23 +1,18 @@
 #include <stdio.h>
 
-void trackPlayerRanks(int ranked[], int n, int player[], int m, int result[]) {
-    // Create a unique ranked leaderboard
-    int unique_ranks[n], rank_size = 0;
+// Function to perform binary search (find lower bound)
+int findRank(int unique_ranks[], int rank_size, int score) {
+    int low = 0, high = rank_size - 1, mid;
 
-    for (int i = 0; i < n; i++) {
-        if (i == 0 || ranked[i] != ranked[i - 1]) {
-            unique_ranks[rank_size++] = ranked[i];
+    while (low <= high) {
+        mid = low + (high - low) / 2;
+        if (unique_ranks[mid] <= score) {
+            high = mid - 1;  // Move left
+        } else {
+            low = mid + 1;  // Move right
         }
     }
-
-    // Find ranks for player scores
-    int index = rank_size - 1;
-    for (int i = 0; i < m; i++) {
-        while (index >= 0 && player[i] >= unique_ranks[index]) {
-            index--;
-        }
-        result[i] = index + 2; // Rank is index + 2
-    }
+    return low + 1;  // Rank is index + 1
 }
 
 int main() {
@@ -25,26 +20,30 @@ int main() {
     
     // Read leaderboard size
     scanf("%d", &n);
-    int ranked[n];
+    int ranked[n], unique_ranks[n], rank_size = 0;
+
+    // Read leaderboard scores and create unique ranks
     for (int i = 0; i < n; i++) {
         scanf("%d", &ranked[i]);
+        if (i == 0 || ranked[i] != ranked[i - 1]) {
+            unique_ranks[rank_size++] = ranked[i];
+        }
     }
 
     // Read number of games
     scanf("%d", &m);
-    int player[m], result[m];
+    int player[m];
 
+    // Read player's game scores
     for (int i = 0; i < m; i++) {
         scanf("%d", &player[i]);
     }
 
-    // Call function to compute ranks
-    trackPlayerRanks(ranked, n, player, m, result);
-
-    // Output result
+    // Compute and print ranks using binary search
     for (int i = 0; i < m; i++) {
-        printf("%d\n", result[i]);
+        printf("%d\n", findRank(unique_ranks, rank_size, player[i]));
     }
 
     return 0;
 }
+
