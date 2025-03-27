@@ -2,7 +2,7 @@
 void insertionSort(char arr[],int n){
     itn i,j;
     char key;
-    for(int i=1;i<=n;i++){
+    for(int i=1;i<n;i++){
         key=arr[i];
         j=i-1;
         while(j>=0 && arr[j]>key){
