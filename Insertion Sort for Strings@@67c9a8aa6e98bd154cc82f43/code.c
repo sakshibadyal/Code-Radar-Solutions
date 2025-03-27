@@ -1,6 +1,6 @@
 #include<stdio.h>
 #inlcude<string.h>
-void inertionSort(char arr[][100],int n){
+void insertionSort(char arr[][100],int n){
     char key[100];
     int i,j;
     for(int i=1;i<n;i++){
