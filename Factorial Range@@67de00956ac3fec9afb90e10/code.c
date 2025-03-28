@@ -15,7 +15,7 @@ void factorialRange(int a,int b){
         printf("invalid range");
         return ;
     }
-    for(int i=a;i,=b;i++){
+    for(int i=a;i<=b;i++){
         printf("%d\n",i);
     }
 }
