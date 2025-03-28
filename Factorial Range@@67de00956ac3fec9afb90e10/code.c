@@ -1,5 +1,5 @@
 #include <stdio.h>
-long long factorial(int n) {
+void factorial(int n) {
     if (n == 0 || n == 1) {
         return 1;
     }
@@ -10,11 +10,11 @@ long long factorial(int n) {
     return fact;
 }
 void factorialRange(int a, int b) {
-    if (a>b || a< 0 || b< 0) {
+    if (a>b || a<0 || b<0) {
         printf("Invalid range\n");
         return;
     }
-    for (int i =a; i <= b; i++) {
+    for (int i=a; i<=b;i++) {
         printf("%lld\n", factorial(i));
     }
 }
