@@ -9,12 +9,12 @@ long long factorial(int n) {
     }
     return fact;
 }
-void factorialRange(int start, int end) {
-    if (start > end || start < 0 || end < 0) {
+void factorialRange(int a, int b) {
+    if (a>b || a< 0 || b< 0) {
         printf("Invalid range\n");
         return;
     }
-    for (int i = start; i <= end; i++) {
+    for (int i =a; i <= b; i++) {
         printf("%lld\n", factorial(i));
     }
 }
