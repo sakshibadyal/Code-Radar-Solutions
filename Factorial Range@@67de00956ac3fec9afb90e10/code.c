@@ -1,5 +1,5 @@
 #include <stdio.h>
-void factorial(int n) {
+long long factorial(int n) {
     if (n == 0 || n == 1) {
         return 1;
     }
