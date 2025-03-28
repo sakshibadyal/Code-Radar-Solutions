@@ -13,6 +13,6 @@ void factorialrange(int a,int b){
     return;
     }
     for(int i=a;i<=b;i++){
-        printf("%d\n",factorial(n));
+        printf("%d\n",factorial(num));
     }
 }
