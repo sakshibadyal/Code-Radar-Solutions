@@ -5,7 +5,7 @@ int factorial(int n){
     for(int i=2;i<=n;i++){
         fact*=i;
     }
-    return fct;
+    return fact;
 }
 void factorialRange(int a,int b){
     if(a>b||a<0){
