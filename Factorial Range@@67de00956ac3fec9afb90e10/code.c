@@ -10,7 +10,7 @@ int factorial(int num){
     }
     return fact;
 }
-void facortialRange(int a,int b){
+void factorialRange(int a,int b){
     if(a>b||a<0){
         printf("invalid range");
         return ;
