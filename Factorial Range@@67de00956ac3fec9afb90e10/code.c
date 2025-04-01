@@ -5,12 +5,13 @@ int factorial(int n){
     for(int i=2;i<=n;i++){
         fact*=i;
     }
-    return fact;
+return fact;
 }
+
 void factorialRange(int a,int b){
     if(a>b||a<0){
         printf("Invalid range");
-        return ;
+        return;
     }
     for(int i=a;i<=b;i++){
         printf("%d\n",factorial(i));
