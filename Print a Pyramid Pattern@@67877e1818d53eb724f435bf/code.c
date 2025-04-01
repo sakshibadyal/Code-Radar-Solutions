@@ -14,4 +14,4 @@ int main(){
         NST=NST+2;
         printf("\n");
     }
-}ing Code...
+}
