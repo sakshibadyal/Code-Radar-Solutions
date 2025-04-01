@@ -2,11 +2,10 @@
 int main(){
     int n;
     scanf("%d",&n);
-    for(int i=n;i>=1;i--){
-        for(int j=1;j<=i;j++){
-            printf("%c ",'A'+j-1);
-        }
-        printf("\n");
+for(int i=1;i<=n;i++){
+    for(int j=1;j<=n+1-i;j++){
+        printf("%c ",'A'+j-1);
     }
-    return 0;
+    printf("\n");
+}
 }
