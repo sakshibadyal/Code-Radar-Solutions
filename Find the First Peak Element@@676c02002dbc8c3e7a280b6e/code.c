@@ -10,7 +10,7 @@ int findFirstPeak(int arr[], int n) {
         if (i == n - 1 && arr[i] > arr[i - 1]) { 
             return arr[i];
         }
-        if (i > 0 && i < n - 1 && arr[i] > arr[i - 1] && arr[i] > arr[i + 1]) {
+        if (i > 0 && i < n - 1 && arr[i] > arr[i-1]&&arr[i]>arr[i+1]) {
             return arr[i]; 
         }
     }
