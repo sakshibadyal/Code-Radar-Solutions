@@ -20,4 +20,4 @@ int main() {
         printf("Not Sorted\n");
     }
     return 0;
-}.
+}
